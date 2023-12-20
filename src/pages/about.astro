@@ -1,6 +1,5 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import CallToAction from "../components/CallToAction.astro";
 import ContactCTA from "../components/ContactCTA.astro";
 import Hero from "../components/Hero.astro";
 ---
@@ -33,6 +32,7 @@ import Hero from "../components/Hero.astro";
             healthcare industries has allowed me to hone in on my systematic
             thinking skills which I use daily when solving business problems.
           </p>
+          <br />
           <p>
             As a lifelong learner who seeks carefully crafted solutions to novel
             problems, I am highly skilled in Python, SQL, Database Manipulation,
@@ -41,6 +41,7 @@ import Hero from "../components/Hero.astro";
             and becoming familiar with your story feeds my curiosity. I am open
             to new connections. 👋🏾
           </p>
+          <br />
           <p>
             Favorite quote: "The only thing we have to fear is fear itself" FDR
           </p>
@@ -49,8 +50,8 @@ import Hero from "../components/Hero.astro";
       <section>
         <h2 class="section-title">Experience</h2>
         <div class="content">
-          <p>
-            <u style="font-weight:bolder"> Financial Analyst</u>
+          <p class="sub-section">
+            <u> Financial Analyst</u>
             <h6>(Sep 2022 - Oct 2023)</h6>
           </p>
           <b>Jacksonville Orthopaedic Institute</b>
@@ -78,8 +79,8 @@ import Hero from "../components/Hero.astro";
           </p>
         </div>
         <div class="content">
-          <p>
-            <u style="font-weight:bolder"> Data Science Fellow</u>
+          <p class="sub-section">
+            <u> Data Science Fellow</u>
             <h6>(Jan 2022 - Jul 2022)</h6>
           </p>
           <b>edX</b>
@@ -109,8 +110,8 @@ import Hero from "../components/Hero.astro";
           </p>
         </div>
         <div class="content">
-          <p>
-            <u style="font-weight:bolder"> Personal goal pursuit</u>
+          <p class="sub-section">
+            <u> Personal goal pursuit</u>
             <h6>(Nov 2020 - Jul 2022)</h6>
           </p>
           <b>edX</b>
@@ -122,8 +123,8 @@ import Hero from "../components/Hero.astro";
           </p>
         </div>
         <div class="content">
-          <p>
-            <u style="font-weight:bolder"> Accountant</u>
+          <p class="sub-section">
+            <u> Accountant</u>
             <h6>(Dec 2019 - Nov 2020)</h6>
           </p>
           <b>Indiana Stamp Company</b>
@@ -144,8 +145,8 @@ import Hero from "../components/Hero.astro";
           </p>
         </div>
         <div class="content">
-          <p>
-            <u style="font-weight:bolder"> Staff Accountant/Office Manager</u>
+          <p class="sub-section">
+            <u> Staff Accountant/Office Manager</u>
             <h6>(Jul 2016 - Oct 2019)</h6>
           </p>
           <b>BTS PLUMBING & HEATING</b>
@@ -178,8 +179,8 @@ import Hero from "../components/Hero.astro";
       <section>
         <h2 class="section-title">Education</h2>
         <div class="content">
-          <p>
-            <u style="font-weight:bolder"> Huntington University</u>
+          <p class="sub-section">
+            <u> Huntington University</u>
           </p>
           <p>
             &#x2022; Bachelor of Science in Accounting & Bachelor of Arts in
@@ -196,8 +197,8 @@ import Hero from "../components/Hero.astro";
           <p>&#x2022; Campus Ministries Coordinator</p>
         </div>
         <div class="content">
-          <p>
-            <u style="font-weight:bolder"> International Open Academy</u>
+          <p class="sub-section">
+            <u> International Open Academy</u>
           </p>
           <p>
             &#x2022; Teaching English as a Second Language/ESL Language
@@ -232,6 +233,11 @@ import Hero from "../components/Hero.astro";
   }
 
   .section-title {
+    grid-column-start: 1;
+    font-size: var(--text-3xl);
+    color: var(--gray-0);
+  }
+  .sub-section {
     grid-column-start: 1;
     font-size: var(--text-xl);
     color: var(--gray-0);

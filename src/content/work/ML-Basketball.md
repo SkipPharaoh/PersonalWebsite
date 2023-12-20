@@ -12,13 +12,13 @@ tags:
 permalink: https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/98cc15ea-9aae-4589-8167-41d10ca95476/view?access_token=5f45ee82c2f6db1ea945e79bfd935e51e3c9eb0cff038bf204c07aef2c361a6c
 ---
 
-# ML & Sports Betting
+## ML & Sports Betting
 This is the final assignment for the IBM Data Science Professional Certificate Machine Learning Module
 
-## Objective
+### Objective
 Apply ML to a dataset to make inferences about a basketball team's likelihood of making it to the final four
 
-## Instructions
+### Instructions
 In this scenario, you are a Data Scientist working for a college basketball team. Your coaches have asked you to look at historical data to see which team metrics (individually or combined) make a team more likely to make it into the Final Four. 
 
 For example:
@@ -40,7 +40,7 @@ The results are reported as the accuracy of each classifier, using the following
 - Accuracy
 - Log Loss
 
-## Review Criteria
+### Review Criteria
 The project is considered successful if the following requirements are met:
   * Build a KNN model using a value of k equals five, find the accuracy on the validation data 
   * Determine the accuracy for the first 15 values of k the on the validation data:.
@@ -50,5 +50,5 @@ The project is considered successful if the following requirements are met:
   * Calculate the F1 score and Jaccard Similarity score for each model from above.
   * Use the Hyperparameter that performed best on the validation data
   
-## Accuracy Scores Observed in Model
+### Accuracy Scores Observed in Model
 ![image](https://user-images.githubusercontent.com/92489108/179370179-8b973fd9-9c98-4948-9e68-664aa65eb260.png)  

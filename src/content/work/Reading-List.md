@@ -12,7 +12,7 @@ tags:
 permalink: https://github.com/Sonya-7/Reading_List
 ---
 
-# Reading List
+## Reading List
 
 This repository showcases a comprehensive collection of books I have read since January 2021. It presents engaging word clouds and an interactive dashboard, offering a captivating visualization of my literary journey.
 
@@ -22,19 +22,19 @@ Furthermore, in recognizing the profound influence of language in our daily live
 
 By combining my passion for data science with my love for learning, this project displays my technical expertise and commitment to personal growth.
 
-## Preview of ELT Insights
+### Preview of ELT Insights
 <p  align="center">
   <img  src="https://github.com/Sonya-7/Reading_List/assets/92489108/be37116e-6731-415b-bbdf-587ae3491e5f" width="358" height="255"/>
   &nbsp;
   <img  src="https://github.com/Sonya-7/Reading_List/assets/92489108/b69c3377-a4b5-4921-8584-c8613b6fa833" width="358" height="255"/>
 
-## Preview of Word Clouds Containing Dominant Words in Book Titles
+### Preview of Word Clouds Containing Dominant Words in Book Titles
 <p  align="center">
   <img  src="https://github.com/Sonya-7/Reading_List/assets/92489108/7f837679-bcbd-4a2c-9b99-dfac7f5c68d4" width="358" height=50%/>
   &nbsp;
   <img  src="https://github.com/Sonya-7/Reading_List/assets/92489108/117b1b44-808c-45b5-a60a-efc40b06ca6c" width="358" height=50%/>
 
-## Preview of Dashboard Insights on Reading Patterns
+### Preview of Dashboard Insights on Reading Patterns
 <p  align="center">
   <img  src="https://github.com/Sonya-7/Reading_List/assets/92489108/ea74cd45-7fa1-4bdf-b02a-a088532a2e79" width="353" height=50%/>
   &nbsp;

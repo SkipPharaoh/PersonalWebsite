@@ -12,9 +12,9 @@ tags:
 permalink: https://www.kaggle.com/code/sonyalawrence/final-dashboard-assignment-with-ibm
 ---
 
-# Create an Interactive Dashboard using Dash
+## Create an Interactive Dashboard using Dash
 
-## Story:
+### Story:
 As a data analyst, you have been given a task to monitor and report US domestic airline flights performance from 2005 to 2020.Your goal is to analyze the performance of the reporting airline to improve flight reliability thereby improving customer reliability.
 
 Below are the key report items:
@@ -40,7 +40,7 @@ For the chosen month provide,
 - Monthly average late aircraft delay by reporting airline for the given year.
 NOTE: You have worked created the same dashboard components in Flight Delay Time Statistics Dashboard section. We will be reusing the same.
 
-## Expected Layout Requirements:
+### Expected Layout Requirements:
 Create the expected result
 Two dropdown menus: For choosing report type and year
 Each dropdown will be designed as follows:
@@ -49,8 +49,8 @@ Each dropdown will be designed as follows:
    - Layout for adding graphs
    - Callback function to compute data, create graph and return to the layout
     
-## Sample Output 1:
+### Sample Output 1:
 ![Screenshot (28)](https://user-images.githubusercontent.com/92489108/167524885-46be2044-ed1a-462f-8018-a7d2ec77a001.png)
 
-## Sample Output 2:
+### Sample Output 2:
 ![Screenshot (27)](https://user-images.githubusercontent.com/92489108/167524907-f67b3e37-65df-44a8-8d17-893ca5006b5e.png)
