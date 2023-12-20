@@ -25,6 +25,8 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { Content } = await entry.render();
+
+// console.log(entry.data?.permalink);
 ---
 
 <BaseLayout title={entry.data.title} description={entry.data.description}>
@@ -32,7 +34,14 @@ const { Content } = await entry.render();
     <div class="stack gap-15">
       <header>
         <div class="wrapper stack gap-2">
-          <a class="back-link" href="/work/"><Icon icon="arrow-left" /> Work</a>
+          <div class="gap-2 links">
+            <a class="back-link" href="/work/"
+              ><Icon icon="arrow-left" /> Work</a
+            >
+            <a class="icon" href={entry.data?.permalink} target="_blank"
+              ><Icon icon="link" /></a
+            >
+          </div>
           <Hero title={entry.data.title} align="start">
             <div class="details">
               <div class="tags">
@@ -64,6 +73,20 @@ const { Content } = await entry.render();
   header {
     padding-bottom: 2.5rem;
     border-bottom: 1px solid var(--gray-800);
+  }
+
+  .icon {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-decoration: none;
+    padding-right: 1rem;
+    font-size: x-large;
+  }
+
+  .icon:hover,
+  .icon:focus {
+    color: var(--accent-text-over);
   }
 
   .back-link {
@@ -125,7 +148,7 @@ const { Content } = await entry.render();
 
   .back-link,
   .content :global(a) {
-    text-decoration: 1px solid underline transparent;
+    text-decoration: none;
     text-underline-offset: 0.25em;
     transition: text-decoration-color var(--theme-transition);
   }
@@ -135,12 +158,23 @@ const { Content } = await entry.render();
   .content :global(a:hover),
   .content :global(a:focus) {
     text-decoration-color: currentColor;
+    color: var(--accent-text-over);
   }
 
   @media (min-width: 50em) {
     .back-link {
       display: block;
       align-self: flex-start;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .icon {
+      padding-right: 4rem;
     }
 
     .details {
