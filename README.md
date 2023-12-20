@@ -1,6 +1,7 @@
 # Sonya's Portfolio Website
 
-Welcome to my portfolio website! This repository contains the source code and content for my personal portfolio.
+Welcome to my portfolio website! Click [here](https://sonya-personal-website.vercel.app/) to view my portfolio website. This repository contains the source code and content for my personal portfolio.
+
 
 ## Table of Contents
 
@@ -39,8 +40,8 @@ This portfolio website serves as a showcase of my projects, skills, and achievem
 
 ## Usage
 
-- Customize the content in the `index.html` file to add your project details and personal information.
-- Modify the styles in the `styles.css` file to match your design preferences.
+- Customize the content in the `pages` folder, which is in the `src` folder, to add your project details and personal information.
+- Modify the styles in each file to match your design preferences; The CSS is located at the bottom of each corresponding file. For example, to change the styling of the icons, you have to go to the `Icon.astro` file & the CSS is located at the bottom.
 - Update the `assets` folder with images, icons, or any additional files needed for your portfolio.
 
 ## Customization
