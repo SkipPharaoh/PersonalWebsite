@@ -1,6 +1,6 @@
-# Sonya's Portfolio Website
+# Sonya's Sandbox
 
-Welcome to my portfolio website! Click [here](https://sonya-personal-website.vercel.app/) to view my portfolio website. This repository contains the source code and content for my personal portfolio.
+Welcome to my portfolio website! Click [here](https://sonya-personal-website.vercel.app/) to view the website. This repository contains the source code and content for my personal portfolio.
 
 
 ## Table of Contents
@@ -18,10 +18,10 @@ This portfolio website serves as a showcase of my projects, skills, and achievem
 
 ## Features
 
-- **Project Showcase:** Display and highlight your projects with descriptions and links.
-- **Skills and Technologies:** Showcase your skills and the technologies you're proficient in.
-- **Contact Information:** Provide ways for visitors to get in touch with you.
-- **Responsive Design:** Ensure your portfolio looks great on various devices.
+- **Project Showcase:** Display and highlight projects with descriptions and links.
+- **Skills and Technologies:** Showcase hard skills and proficient technologies.
+- **Contact Information:** Provide contact details for site visitors.
+- **Responsive Design:** Ensure portfolio looks great on various devices.
 
 ## Setup
 
