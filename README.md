@@ -20,7 +20,7 @@ This portfolio website serves as a showcase of my projects, skills, and achievem
 
 - **Project Showcase:** Display and highlight projects with descriptions and links.
 - **Skills and Technologies:** Showcase hard skills and proficient technologies.
-- **Contact Information:** Provide contact details for site visitors.
+- **Contact Information:** Provide personal contact details to site visitors.
 - **Responsive Design:** Ensure portfolio looks great on various devices.
 
 ## Setup
