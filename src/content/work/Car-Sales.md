@@ -1,8 +1,8 @@
 ---
 title: Car Sales Dashboard
 publishDate: 2020-03-02 00:00:00
-img: /assets/stock-1.jpg
-img_alt: Iridescent ripples of a bright blue and pink liquid
+img: /assets/stock-6.jpg
+img_alt: Top-down view of an indoor car sales floor
 description: |
   This repository contains an excel dashboard that tracks a company's car sales by several factors.
 tags:
