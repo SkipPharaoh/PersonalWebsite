@@ -2,7 +2,7 @@
 title: Reading List
 publishDate: 2020-03-04 00:00:00
 img: /assets/stock-3.jpg
-img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
+img_alt: Open book with pages flared
 description: |
   This is a compilation of the books I've read since 2021; presented in a PowerBi Dashboard.
 tags:
