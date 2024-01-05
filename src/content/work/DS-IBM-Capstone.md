@@ -2,7 +2,7 @@
 title: Data Science IBM Capstone
 publishDate: 2019-10-02 00:00:00
 img: /assets/stock-4.jpg
-img_alt: Soft pink and baby blue water ripples together in a subtle texture.
+img_alt: SpaceX rocket lauch
 description: |
   Comprehensive Data Science project that predicts the likelihood of SpaceX's Falcon 9 first stage landing successfully in order to advise a competing company.
 tags:
