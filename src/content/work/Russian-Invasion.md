@@ -2,7 +2,7 @@
 title: Russian Invasion of Ukraine
 publishDate: 2020-03-02 00:00:00
 img: /assets/stock-5.jpg
-img_alt: Ukainian Flag
+img_alt: Ukrainian Flag
 description: |
   This is a Python data visualization project aimed at depicting the current equipment loss associated with the Russian invasion of Ukraine.
 tags:
