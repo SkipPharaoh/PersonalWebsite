@@ -1,14 +1,14 @@
 ---
 title: Reading List
-publishDate: 2020-03-04 00:00:00
+publishDate: 2021-01-01 00:00:00
 img: /assets/stock-3.jpg
 img_alt: Open book with pages flared
 description: |
   This is a compilation of the books I've read since 2021; presented in a PowerBi Dashboard.
 tags:
-  - Dashboards
-  - Data-Viz
-  - Learning
+  - Python
+  - PowerBi
+  - Personal Growth
 permalink: https://github.com/Sonya-7/Reading_List
 ---
 
@@ -30,25 +30,10 @@ By combining my passion for data science with my love for learning, this project
 
 ### Preview of Word Clouds Containing Dominant Words in Book Titles
 <p  align="center">
-  <img  src="https://github.com/Sonya-7/Reading_List/assets/92489108/7f837679-bcbd-4a2c-9b99-dfac7f5c68d4" width="358" height=50%/>
-  &nbsp;
-  <img  src="https://github.com/Sonya-7/Reading_List/assets/92489108/117b1b44-808c-45b5-a60a-efc40b06ca6c" width="358" height=50%/>
+  <img  src="https://github.com/Sonya-7/Reading_List/assets/92489108/e0f20fa1-a1f6-4206-80de-01f4a3615bfd" width="358" height=50%/>
 
 ### Preview of Dashboard Insights on Reading Patterns
 <p  align="center">
   <img  src="https://github.com/Sonya-7/Reading_List/assets/92489108/ea74cd45-7fa1-4bdf-b02a-a088532a2e79" width="353" height=50%/>
-  &nbsp;
-  <img  src="https://github.com/Sonya-7/Reading_List/assets/92489108/c8a4099b-9da5-456c-9c36-37284ce17c39" width="353" height=50%/>
   
 
-
-  <!--- I'm not sure if I want to have 1 branch per year or leave it all here... 
- </P>  
-  <p  align="center">
-   <img  src="https://github.com/Sonya-7/Reading_List/assets/92489108/e0f20fa1-a1f6-4206-80de-01f4a3615bfd" />
-  
-  <img  src="https://github.com/Sonya-7/Reading_List/assets/92489108/e4840f74-c018-4b79-b6de-48fd2d4dc73f" width=75% height=75%/>
-
-   <img  src="https://github.com/Sonya-7/Reading_List/assets/92489108/030ead32-bd12-4fe4-b122-84ec540392ec" width=75% height=75%/>
- 
-</P> --->
