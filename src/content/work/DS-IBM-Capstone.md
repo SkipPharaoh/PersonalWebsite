@@ -1,13 +1,15 @@
 ---
 title: Data Science IBM Capstone
-publishDate: 2019-10-02 00:00:00
+publishDate: 2022-07-01 00:00:00
 img: /assets/stock-4.jpg
-img_alt: SpaceX rocket lauch
+img_alt: SpaceX rocket lauch in progress
 description: |
   Comprehensive Data Science project that predicts the likelihood of SpaceX's Falcon 9 first stage landing successfully in order to advise a competing company.
 tags:
   - Machine Learning
-  - Data-Viz
+  - Data Science
+  - Python
+  - SQL
 permalink: https://docs.google.com/presentation/d/1D1IVyxTffZ7tjNsF4RizdzksX14EEE6i/edit?usp=sharing&ouid=110833041343711162548&rtpof=true&sd=true
 ---
 
