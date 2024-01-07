@@ -1,6 +1,6 @@
 ---
 title: Russian Invasion of Ukraine
-publishDate: 2020-04-01 00:00:00  
+publishDate: 2022-04-01 00:00:00  
 img: /assets/stock-5.jpg
 img_alt: War machinery in the desert
 description: |
@@ -12,7 +12,7 @@ tags:
 permalink: https://www.kaggle.com/code/sonyalawrence/russian-invasion-of-ukraine
 ---
 
-## Russian Invasion of Ukraine
+## Project History
 This repository contains an assessment of the equipment and personnel loss in the Russian invasion of Ukraine. Several visualization tools including bar charts, geospatial maps, area charts, and box plots are used to show trends and patterns observed in the data. 
 
 On February 24th,2022 Russia launched a large-scale invasion of Ukraine. Here is a timeline of Ukraine's fraught relationship with Moscow since it won independence in 1991 and the events that led to the current conflict.
@@ -94,4 +94,3 @@ The dataset used in this project was obtained from [Kaggle](https://www.kaggle.c
 <p align="center">
 <img src="https://user-images.githubusercontent.com/92489108/170802793-a19f6345-c6a3-4495-ab47-d63c935d22d8.gif" width=30% height=30%>
 </p>
-<!-- actual date published 2022-04-01 00:00:00 changed to 2020 above to make it appear last in projects-->
