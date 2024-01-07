@@ -1,5 +1,5 @@
 ---
-title: North American Data Salaries
+title: North American Data-Job Salaries
 publishDate: 2024-01-01 00:00:00
 img: /assets/stock-2.jpg
 img_alt: A US dollar bill with scrabble letters spelling out salary sitting atop a table
@@ -13,7 +13,7 @@ permalink: https://www.kaggle.com/code/sonyalawrence/data-salaries-in-north-amer
 ---
 
 
-# US Data-Job Salaries
+# Findings
 This assessment is an in-depth analysis of the salary details for North American employers whose employees are also located in North America. <br />
 
 ### ***<ins>Demographics</ins>***
