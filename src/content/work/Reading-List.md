@@ -1,6 +1,6 @@
 ---
 title: Reading List
-publishDate: 2023-01-01 00:00:00
+publishDate: 2021-01-01 00:00:00
 img: /assets/stock-3.jpg
 img_alt: Open book with pages flared
 description: |
