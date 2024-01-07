@@ -12,9 +12,9 @@ tags:
 permalink: https://github.com/Sonya-7/Car_Sales_Dashboard
 ---
 
-## Car Sales Dashboard
+## Details
 
-This repository features an interactive Excel dashboard designed specifically for monitoring car sales within an esteemed automotive company with a diverse inventory encompassing multiple manufacturers and models. The focus of this dashboard centers around the performance analysis of their current stock of German vehicles.
+This project features an interactive Excel dashboard designed specifically for monitoring car sales within an esteemed automotive company with a diverse inventory encompassing multiple manufacturers and models. The focus of this dashboard centers around the performance analysis of their current stock of German vehicles.
 
 Highlighting key metrics such as retention rate, power performance factor, unit sales, pricing, and resale value, the dashboard provides valuable insights into the success and profitability of the company's vehicle offerings.
 
