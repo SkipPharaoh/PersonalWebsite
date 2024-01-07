@@ -1,6 +1,6 @@
 ---
 title: North American Data Salaries
-publishDate: 2024-01-01 00:00:00
+publishDate: 2023-01-01 00:00:00
 img: /assets/stock-2.jpg
 img_alt: A US dollar bill with scrabble letters spelling out salary sitting atop a table
 description: |
@@ -35,7 +35,7 @@ The Data job categories reported include:
 - Data Architecture and Modeling
 - Data Science and Research
 
-The participants reported experience levels ranging from 
+The participants reported the following experience levels
  - Entry-Level
  - Mid-Level
  - Senior
@@ -44,8 +44,9 @@ The participants reported experience levels ranging from
 ### ***<ins>Salary Data</ins>***
 The maximum reported salary across all categories over the 4 years is $450,000.00 for a Mid-level Research Scientist. Conversely, the minimum reported salary stands at $24,000.00 for an Entry-level Data Scientist. The median salary is $150,000.00, within which 2.48% of the total reported jobs fall.
 
-Salary directly correlates with experience level and has an inverse correlation with work location. On average, employees with more experience report higher salaries whereas the location of work does not have a significant effect on salary. Full-time, in-person employees are the highest paid among all surveyed, closely followed by full-time remote employees. Notably, Machine learning and AI claim the title of the highest-paying job category for both in-person and remote data professionals; while data architecture and modeling proves to be most lucrative for hybrid employees. 
+Salary directly correlates with experience level and has an inverse correlation with work location. On average, employees with more experience report higher salaries whereas the location of work does not have a significant effect on salary. Full-time, in-person employees are the highest paid among all surveyed, closely followed by full-time remote employees. Notably, Machine learning and AI claim the title of the highest-paying job category for both in-person and remote data professionals; while data architecture and modeling proves to be most lucrative for hybrid employees. <br /><br />
 
+### ***<ins>Data Source</ins>***
 This salary data was obtained from [Kaggle](https://www.kaggle.com/datasets/hummaamqaasim/jobs-in-data) and the most recent version of this assessment can be viewed [here](https://www.kaggle.com/code/sonyalawrence/data-salaries-in-north-america) <br />
 
 # Output Visuals
