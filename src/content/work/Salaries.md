@@ -1,6 +1,6 @@
 ---
 title: North American Data Salaries
-publishDate: 2023-01-01 00:00:00
+publishDate: 2024-01-01 00:00:00
 img: /assets/stock-2.jpg
 img_alt: A US dollar bill with scrabble letters spelling out salary sitting atop a table
 description: |
