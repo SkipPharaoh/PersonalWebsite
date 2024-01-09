@@ -4,7 +4,7 @@ publishDate: 2023-01-01 00:00:00
 img: /assets/stock-3.jpg
 img_alt: Open book with pages flared
 description: |
-  This is a compilation of the books I've read since 2021; presented in a PowerBi Dashboard.
+  This is a compilation of the books i've read since 2021; presented in a PowerBi Dashboard
 tags:
   - Python
   - PowerBi
