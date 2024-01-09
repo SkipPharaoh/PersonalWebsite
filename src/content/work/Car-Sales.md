@@ -4,7 +4,7 @@ publishDate: 2021-11-01 00:00:00
 img: /assets/stock-6.jpg
 img_alt: Luxury cars and a helicopter in an open lot with a view of the natural greenery
 description: |
-  This repository contains an excel dashboard that tracks a company's car sales by several requested factors.
+  This repository contains an excel dashboard that tracks a company's car sales by several requested factors
 tags:
   - Dashboards
   - Pivot Tables
