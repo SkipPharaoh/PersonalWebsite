@@ -4,7 +4,7 @@ publishDate: 2022-04-01 00:00:00
 img: /assets/stock-5.jpg
 img_alt: War machinery in the desert
 description: |
-  This is a Python data visualization project aimed at depicting the current equipment loss associated with the Russian invasion of Ukraine.
+  This is a Python data visualization project aimed at depicting the current equipment loss associated with the Russian invasion of Ukraine
 tags:
   - Dashboards
   - Statistics
@@ -13,7 +13,7 @@ permalink: https://www.kaggle.com/code/sonyalawrence/russian-invasion-of-ukraine
 ---
 
 ## Project History
-This repository contains an assessment of the equipment and personnel loss in the Russian invasion of Ukraine. Several visualization tools including bar charts, geospatial maps, area charts, and box plots are used to show trends and patterns observed in the data. 
+This is an assessment of the equipment and personnel loss in the Russian invasion of Ukraine. Several visualization tools including bar charts, geospatial maps, area charts, and box plots are used to show trends and patterns observed in the data. 
 
 On February 24th,2022 Russia launched a large-scale invasion of Ukraine. Here is a timeline of Ukraine's fraught relationship with Moscow since it won independence in 1991 and the events that led to the current conflict.
 
@@ -83,14 +83,7 @@ The dataset used in this project was obtained from [Kaggle](https://www.kaggle.c
 - What is the correlation between Prisoners of War and equipment loss?
 - What inferences can be made from the data and correlations within the data?
 
-
-<p align="center">
-“It takes hundreds of years of hard work to build a civilization, and yet with the press of a button, we can destroy it all in a day. Let us not press the button, my friend. In fact, if we must destroy something let us destroy the very button of destruction, both from outside and inside.”
-</p>
-<p align="center">
--Abhijit Naskar, Either Reformist or Terrorist: If You Are Terror I Am Your Grandfather
-</p>
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/92489108/170802793-a19f6345-c6a3-4495-ab47-d63c935d22d8.gif" width=30% height=30%>
-</p>
+## Sample Output
+<p  align="center">
+  <img  src="/assets/image.png" width=75% height=75%/>
+  
