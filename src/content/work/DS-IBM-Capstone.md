@@ -1,10 +1,10 @@
 ---
-title: Data Science IBM Capstone
+title: Data Science Capstone
 publishDate: 2022-07-01 00:00:00
 img: /assets/stock-4.jpg
 img_alt: SpaceX rocket lauch in progress
 description: |
-  Comprehensive Data Science project that predicts the likelihood of SpaceX's Falcon 9 first stage landing successfully in order to advise a competing company.
+  A comprehensive Data Science project that predicts the likelihood of SpaceX's Falcon 9 first stage landing successfully in order to advise a competing company
 tags:
   - Machine Learning
   - Data Science
@@ -17,17 +17,16 @@ permalink: https://docs.google.com/presentation/d/1D1IVyxTffZ7tjNsF4RizdzksX14EE
 This capstone project predicts the likelihood of the Falcon 9 first stage landing successfully. SpaceX advertises Falcon 9 rocket launches on its website with a cost of $62 million; other providers cost upward of $165 million each. Much of the savings is because SpaceX can reuse the first stage of it's rockets after launch. If we can determine whether the first stage will land, we can estimate the cost of a launch. This information can prove to be very insightful for an alternate company that wants to bid against SpaceX for a rocket launch.
 
 This project mimics a real world Data Science problem and is my first attempt at putting all my Data Science knowlegde together in one body of work. I have assumed the role of a Data Scientist working for a startup company intending to compete with SpaceX. In the process I followed the Data Science methodology involving 
-[API data collection](https://github.com/Sonya-7/DS_IBM_Capstone/blob/master/SpaceX%20Assessment%20(Data%20Cleaning).ipynb), 
-[web scraping data collection](https://github.com/Sonya-7/DS_IBM_Capstone/blob/master/SpaceX%20Assessment%20(Web%20Scraping).ipynb), 
-[data wrangling](https://github.com/Sonya-7/DS_IBM_Capstone/blob/master/SpaceX%20Assessment%20(Data%20Wrangling).ipynb), 
-[data analysis](https://github.com/Sonya-7/DS_IBM_Capstone/blob/master/Spacex%20Assessment(data%20analysis-sqllite).ipynb), 
-[static data visualization](https://github.com/Sonya-7/DS_IBM_Capstone/blob/master/Spacex%20Assessment(Data%20Visualization).ipynb), 
-[exploratory data analysis](https://github.com/Sonya-7/DS_IBM_Capstone/blob/master/Spacex%20Assessment(Visual%20Analytics).ipynb),
-[interactive data visualization / dashboard development](https://github.com/Sonya-7/DS_IBM_Capstone/blob/master/spacex_dash_app.py),
-[machine learning model building](https://github.com/Sonya-7/DS_IBM_Capstone/blob/master/Spacex%20Assessment(Machine%20Learning%20Models).ipynb), 
+API aided data collection, 
+web scraping, 
+data wrangling, 
+data analysis, 
+exploratory data analysis,
+static data visualization,
+interactive data visualization / dashboard development,
+machine learning model building, 
 and 
-[presentation of findings](https://docs.google.com/presentation/d/1D1IVyxTffZ7tjNsF4RizdzksX14EEE6i/edit?usp=sharing&ouid=110833041343711162548&rtpof=true&sd=true)
-.
+presentation of findings.
 
 
 ## Business Problem
@@ -46,7 +45,7 @@ $$ Accuracy  =  \frac{TP+TN} {TP+FP+TN+FN} $$
 
 
 <p  align="center">
-  <img  src="https://user-images.githubusercontent.com/92489108/233760433-4b5686e7-77af-4d25-93e2-32fecd2d8c45.png" width=15% height=15% />
+  <img  src="https://user-images.githubusercontent.com/92489108/233760433-4b5686e7-77af-4d25-93e2-32fecd2d8c45.png" width=50% height=50% />
 </P>
 
 ## Deliverables
@@ -54,4 +53,4 @@ $$ Accuracy  =  \frac{TP+TN} {TP+FP+TN+FN} $$
 - Business case report for stakeholders
 
 ## Thank you
-Please feel free to leave a comment in my google slide presentation of findings. I always welcome constructive criticism.
+Please feel free to leave a comment in my google slide presentation. I always welcome constructive criticism.
