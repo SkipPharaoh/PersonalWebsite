@@ -1,4 +1,4 @@
-# This is the code file containing the code for creating my resume
+# This is the code file used to create my resume
 
 # Text Variables
 Header = '>>>This resume was generated entirely in Python. For full sourcecode, view my portfolio.'
@@ -35,7 +35,7 @@ SkillsDesc = '- Excel\n- SQL\n- Python\n- Pandas\n- NumPy\n- Data Visualization\
 EduHeader = 'EDUCATION'
 EduOneTitle = 'Huntington University\nBachelors Degree'
 EduOneTime = '2012-2016'
-EduOneDesc = 'Majors: Accounting and Psychology\nMinor: Management'
+EduOneDesc = 'Major1: Accounting\nMajor2: Psychology\nMinor: Business Management'
 CertifOneTitle = 'EdX\nProfessional Certificate'
 CertifOneTime = '2022'
 CertifOneDesc = 'Major: Data Science'
