@@ -1,8 +1,8 @@
 # This is the code file used to create my resume
 
-# Text Variables
+# Resume details laid out by sections
 Header = '>>>This resume was generated entirely in Python. For full sourcecode, view my portfolio.'
-Name = 'SONYA LAWRENCE-THOMPSON'
+Name = 'SONYA LAWRENCE-THOMPSON'.upper()
 Title = 'Financial Analysis & Data Science'
 Contact = 'Jacksonville, FL\n904-615-5819\nlawrences@huntington.edu\nlinkedin.com/in/sonya-lt\ngithub.com/sonya-7'
 Portfolio = 'Portfolio: https://sonya-personal-website.vercel.app/about/'
@@ -41,13 +41,14 @@ CertifOneTime = '2022'
 CertifOneDesc = 'Major: Data Science'
 CertifOneDesc2 = 'Learned:\n - Python, R, SQL,\n - Web-Scraping\n - Data Cleaning \n - Data Manipulation\n - Machine Learning \n - Data Analysis\n - Data Visualization'
 
-# Setting style for bar graphs
+# Import styling package
 import matplotlib.pyplot as plt
 
 # set font
 plt.rcParams['font.family'] = 'sans-serif'
 plt.rcParams['font.sans-serif'] = 'STIXGeneral'
 
+# Set borders
 fig, ax = plt.subplots(figsize=(8.5, 11))
 
 # Decorative Lines
@@ -62,7 +63,7 @@ ax.set_facecolor('white')
 # remove axes
 plt.axis('off')
 
-# add text
+# add texts to complete resume
 plt.annotate(Contact, (.7,.906), weight='regular', fontsize=8, color='#ffffff')
 plt.annotate(Header, (.02,.98), weight='regular', fontsize=8, alpha=.6)
 plt.annotate(Name, (.02,.94), weight='bold', fontsize=19)
