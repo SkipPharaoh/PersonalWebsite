@@ -11,6 +11,7 @@ tags:
   - Data-Viz
 permalink: https://github.com/Sonya-7/Car_Sales_Dashboard
 ---
+export const prerender = true;
 
 ## Details
 
