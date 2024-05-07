@@ -1,16 +1,5 @@
 import { column, defineDb, defineTable, NOW } from "astro:db";
 
-export const PageView = defineTable({
-  columns: {
-    url: column.text(),
-    date: column.date(),
-  },
-  indexes: {
-    url_idx: { on: ["url"], unique: false },
-    date_idx: { on: ["date"], unique: false },
-  },
-});
-
 export const UniquePageViews = defineTable({
   columns: {
     id: column.number({ primaryKey: true }),
@@ -33,23 +22,8 @@ export const UniquePageViews = defineTable({
   indexes: {},
 });
 
-export const UserGeoLocation = defineTable({
-  columns: {
-    geo_id: column.number({ primaryKey: true }),
-    user_id: column.text({ unique: false }),
-    country: column.text(),
-    region: column.text(),
-    city: column.text(),
-    latitude: column.number({ optional: true }),
-    longitude: column.number({ optional: true }),
-    timezone: column.text({ optional: true }),
-    zipcode: column.text({ optional: true }),
-  },
-  indexes: {},
-});
-
 export default defineDb({
-  tables: { PageView, UniquePageViews, UserGeoLocation },
+  tables: { UniquePageViews },
 });
 
 /**
@@ -67,23 +41,17 @@ By combining these factors, browser fingerprinting can create a unique identifie
 user_id: Primary key, a unique identifier for each user.
 session_id: The unique identifier for each session.
 device_id: The unique identifier for each device.
-device_type: Type of device used (e.g., desktop, mobile, tablet).
+user_device_info: Info of the device: device type, os, etc.
 browser: Browser used by the device (e.g., Chrome, Firefox, Safari).
-os: Operating system of the device (e.g., Windows, macOS, Android, iOS).
 event_type: The type of event being tracked (e.g., page view, button click, purchase, etc.).
 timestamp: Timestamp indicating when the event occurred.
 url: page URL for page views.
-
-2) GeoLocation Table (optional):
-
-geo_id: Primary key, a unique identifier for each geographical location.
-user_id: Foreign key referencing the PageViews Table, representing the user associated with the location.
+city: City of the user.
 country: Country of the user.
 region: Region or state of the user.
-city: City of the user.
+flag: Country flag emoji of user's location.
+countryRegion: The region part of the ISO 3166-2 code of the client IP.
 latitude: Latitude coordinate of the user's location.
 longitude: Longitude coordinate of the user's location.
-timezone: Timezone of the user.
-zipcode: Postal code of the user.
 
 */

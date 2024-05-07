@@ -1,11 +1,6 @@
-import { db, PageView, UniquePageViews, UserGeoLocation } from "astro:db";
+import { db, UniquePageViews } from "astro:db";
 
 export default async function () {
-  await db.insert(PageView).values([
-    { date: new Date(), url: "/" },
-    { date: new Date(new Date().getTime() - 1000), url: "/test" },
-  ]);
-
   await db.insert(UniquePageViews).values([
     {
       id: 1,
@@ -63,42 +58,6 @@ export default async function () {
       countryRegion: "Japan - Tokyo",
       latitude: 35.6895,
       longitude: 139.6917,
-    },
-  ]);
-
-  await db.insert(UserGeoLocation).values([
-    {
-      geo_id: 1,
-      user_id: "user123",
-      country: "USA",
-      region: "California",
-      city: "San Francisco",
-      latitude: 37.7749,
-      longitude: -122.4194,
-      timezone: "PST",
-      zipcode: "94102",
-    },
-    {
-      geo_id: 2,
-      user_id: "user456",
-      country: "UK",
-      region: "England",
-      city: "London",
-      latitude: 51.5074,
-      longitude: -0.1278,
-      timezone: "GMT",
-      zipcode: "SW1A",
-    },
-    {
-      geo_id: 3,
-      user_id: "user789",
-      country: "Japan",
-      region: "Tokyo",
-      city: "Shinjuku",
-      latitude: 35.6895,
-      longitude: 139.6917,
-      timezone: "JST",
-      zipcode: "160-0023",
     },
   ]);
 }

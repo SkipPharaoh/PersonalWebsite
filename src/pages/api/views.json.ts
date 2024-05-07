@@ -1,14 +1,7 @@
 export const prerender = false;
 
 import type { APIRoute } from "astro";
-import {
-  count,
-  db,
-  eq,
-  PageView,
-  UniquePageViews,
-  UserGeoLocation,
-} from "astro:db";
+import { count, db, eq, UniquePageViews } from "astro:db";
 import { isbot } from "isbot";
 
 // This is a DB endpoint that returns a JSON for the views count
@@ -36,17 +29,15 @@ export const GET: APIRoute = async ({ request }) => {
   }
 
   const uniqueCount = await db.select().from(UniquePageViews);
-  const location = await db.select().from(UserGeoLocation);
   const viewCount = await db
     .select({ value: count() })
-    .from(PageView)
-    .where(eq(PageView.url, url));
+    .from(UniquePageViews)
+    .where(eq(UniquePageViews.id, UniquePageViews.id));
 
   return new Response(
     JSON.stringify({
       count: viewCount[0]?.value,
       uniqueCount,
-      location,
     }),
     {
       status: 200,
