@@ -1,4 +1,4 @@
-import { column, defineDb, defineTable } from "astro:db";
+import { column, defineDb, defineTable, NOW } from "astro:db";
 
 export const PageView = defineTable({
   columns: {
@@ -11,27 +11,25 @@ export const PageView = defineTable({
   },
 });
 
-export const UniquePageView = defineTable({
+export const UniquePageViews = defineTable({
   columns: {
-    user_id: column.number({ primaryKey: true }),
-    session_id: column.text(),
-    device_id: column.text(),
-    device_type: column.text(),
-    browser: column.text(),
-    os: column.text(),
-    event_type: column.text(),
-    timestamp: column.date(),
-    url: column.text(),
+    id: column.number({ primaryKey: true }),
+    user_id: column.text({ unique: false }),
+    session_id: column.text({ unique: false }),
+    device_id: column.text({ unique: false }),
+    user_device_info: column.text({ unique: false }),
+    browser: column.text({ unique: false }),
+    event_type: column.text({ unique: false }),
+    timestamp: column.date({ default: NOW }),
+    url: column.text({ unique: false }),
   },
   indexes: {},
 });
 
-export const GeoLocation = defineTable({
+export const UserGeoLocation = defineTable({
   columns: {
     geo_id: column.number({ primaryKey: true }),
-    user_id: column.number({
-      references: () => UniquePageView.columns.user_id,
-    }),
+    user_id: column.text({ unique: false }),
     country: column.text(),
     region: column.text(),
     city: column.text(),
@@ -44,7 +42,7 @@ export const GeoLocation = defineTable({
 });
 
 export default defineDb({
-  tables: { PageView, UniquePageView, GeoLocation },
+  tables: { PageView, UniquePageViews, UserGeoLocation },
 });
 
 /**

@@ -20,6 +20,9 @@ dependencies:
   astro:
     specifier: ^4.0.6
     version: 4.0.6(@types/node@14.18.33)(typescript@5.3.3)
+  isbot:
+    specifier: ^5.1.4
+    version: 5.1.4
   typescript:
     specifier: ^5.3.3
     version: 5.3.3
@@ -2825,6 +2828,11 @@ packages:
     engines: {node: '>=16'}
     dependencies:
       is-inside-container: 1.0.0
+    dev: false
+
+  /isbot@5.1.4:
+    resolution: {integrity: sha512-KuqD/TAG/qtgCDnO8Ab1v5rGRK3jl9hb+2KfJt+roIPE7R4Hiq99VinR0qrLGFptdUNIkClYjuXEpVTGkD9V/A==}
+    engines: {node: '>=18'}
     dev: false
 
   /isexe@2.0.0:
