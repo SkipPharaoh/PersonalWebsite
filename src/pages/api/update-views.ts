@@ -1,5 +1,6 @@
 export const prerender = false;
 
+import { geolocation, ipAddress } from "@vercel/edge";
 import type { APIContext, APIRoute, AstroCookies } from "astro";
 import { db, UniquePageViews } from "astro:db";
 import crypto from "crypto";
@@ -14,6 +15,13 @@ interface UniquePageViewType {
   event_type: string;
   timestamp: Date;
   url: string;
+  city?: string;
+  country?: string;
+  region?: string;
+  flag?: string;
+  countryRegion?: string;
+  latitude?: number;
+  longitude?: number;
 }
 
 const userDataCache: Record<string, string> = {};
@@ -80,6 +88,10 @@ export const POST: APIRoute = async ({
     cookies
   );
 
+  const { city, country, flag, countryRegion, region, latitude, longitude } =
+    geolocation(request);
+  const ipInfo = ipAddress(request);
+
   const UniquePageViewObject: UniquePageViewType = {
     user_id: userId,
     session_id: sessionId,
@@ -89,6 +101,13 @@ export const POST: APIRoute = async ({
     event_type: "Unique Page Views",
     timestamp: new Date(),
     url,
+    city,
+    country,
+    region,
+    flag,
+    countryRegion,
+    latitude: latitude !== undefined ? parseFloat(latitude) : undefined,
+    longitude: longitude !== undefined ? parseFloat(longitude) : undefined,
   };
 
   if (isbot(userAgent)) {
@@ -124,6 +143,7 @@ export const POST: APIRoute = async ({
       clientAddress,
       cookies,
       UniquePageViewObject,
+      ipInfo,
     });
 
     await db.insert(UniquePageViews).values(UniquePageViewObject);
@@ -144,4 +164,8 @@ export const POST: APIRoute = async ({
     }),
     { status: 200 }
   );
+};
+
+export const config = {
+  runtime: "edge",
 };

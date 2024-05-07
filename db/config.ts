@@ -22,6 +22,13 @@ export const UniquePageViews = defineTable({
     event_type: column.text({ unique: false }),
     timestamp: column.date({ default: NOW }),
     url: column.text({ unique: false }),
+    city: column.text({ optional: true, unique: false }),
+    country: column.text({ optional: true, unique: false }),
+    region: column.text({ optional: true, unique: false }),
+    flag: column.text({ optional: true, unique: false }),
+    countryRegion: column.text({ optional: true, unique: false }),
+    latitude: column.number({ optional: true, unique: false }),
+    longitude: column.number({ optional: true, unique: false }),
   },
   indexes: {},
 });
