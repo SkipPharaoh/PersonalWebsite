@@ -11,7 +11,6 @@ tags:
   - Personal Growth
 permalink: https://github.com/Sonya-7/Reading_List
 ---
-export const prerender = true;
 
 ## Project Description
 This project showcases a comprehensive collection of books I have read since January 2021. It presents engaging word clouds and an interactive dashboard, offering a captivating visualization of my literary journey.
