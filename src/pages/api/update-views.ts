@@ -109,6 +109,14 @@ export const POST: APIRoute = async ({
     latitude: latitude !== undefined ? parseFloat(latitude) : undefined,
     longitude: longitude !== undefined ? parseFloat(longitude) : undefined,
   };
+  if (import.meta.env.NODE_ENV === "development") {
+    return new Response(
+      JSON.stringify({
+        error: "This endpoint is not available in development",
+      }),
+      { status: 401 }
+    );
+  }
 
   if (isbot(userAgent)) {
     return new Response(
@@ -136,6 +144,8 @@ export const POST: APIRoute = async ({
       { status: 406 }
     );
   }
+
+  console.log(import.meta.env);
 
   try {
     console.log({
