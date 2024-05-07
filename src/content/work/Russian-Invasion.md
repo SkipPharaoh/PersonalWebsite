@@ -11,7 +11,6 @@ tags:
   - Data-Viz
 permalink: https://www.kaggle.com/code/sonyalawrence/russian-invasion-of-ukraine
 ---
-export const prerender = true;
 
 ## Project History
 This is an assessment of the equipment and personnel loss in the Russian invasion of Ukraine. Several visualization tools including bar charts, geospatial maps, area charts, and box plots are used to show trends and patterns observed in the data. 

@@ -11,7 +11,6 @@ tags:
   - Classification
 permalink: https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/98cc15ea-9aae-4589-8167-41d10ca95476/view?access_token=5f45ee82c2f6db1ea945e79bfd935e51e3c9eb0cff038bf204c07aef2c361a6c
 ---
-export const prerender = true;
 
 ### Objective
 Apply Machine learning to a dataset to make inferences about a basketball team's likelihood of making it to the final four.

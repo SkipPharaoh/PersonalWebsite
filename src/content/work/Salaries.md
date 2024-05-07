@@ -11,9 +11,8 @@ tags:
   - Data-Viz
 permalink: https://www.kaggle.com/code/sonyalawrence/data-salaries-in-north-america
 ---
-export const prerender = true;
 
-# Project Description
+## Project Description
 This assessment is an in-depth analysis of the salary details for North American employers whose employees are also located in North America. <br />
 
 ### ***<ins>Demographics</ins>***
