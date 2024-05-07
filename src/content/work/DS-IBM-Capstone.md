@@ -12,6 +12,7 @@ tags:
   - SQL
 permalink: https://docs.google.com/presentation/d/1D1IVyxTffZ7tjNsF4RizdzksX14EEE6i/edit?usp=sharing&ouid=110833041343711162548&rtpof=true&sd=true
 ---
+export const prerender = true;
 
 ## Introduction
 This capstone project predicts the likelihood of the Falcon 9 first stage landing successfully. SpaceX advertises Falcon 9 rocket launches on its website with a cost of $62 million; other providers cost upward of $165 million each. Much of the savings is because SpaceX can reuse the first stage of it's rockets after launch. If we can determine whether the first stage will land, we can estimate the cost of a launch. This information can prove to be very insightful for an alternate company that wants to bid against SpaceX for a rocket launch.
