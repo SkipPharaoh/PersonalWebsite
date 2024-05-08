@@ -4,7 +4,7 @@ publishDate: 2024-01-01 00:00:00
 img: /assets/stock-2.jpg
 img_alt: A US dollar bill with scrabble letters spelling out salary sitting atop a table
 description: |
-  This is an analysis of the salary paid for data related jobs in North America since 2020
+  An analysis of the salaries paid for data related jobs in North America since 2020
 tags:
   - Research
   - Python3
@@ -13,7 +13,7 @@ permalink: https://www.kaggle.com/code/sonyalawrence/data-salaries-in-north-amer
 ---
 
 ## Project Description
-This assessment is an in-depth analysis of the salary details for North American employers whose employees are also located in North America. <br />
+This assessment is an in-depth analysis of the salary details for North American employees whose employers are also located in North America. <br />
 
 ### ***<ins>Demographics</ins>***
 The cleaned dataset contains 4 years of salary details for Data-related careers from 2020 to 2023 and comprises 8,080 records.
@@ -40,7 +40,7 @@ The participants reported the following experience levels:
  - Senior
  - Executive
  
-They also reported the following work settings:
+The following work settings were assessed:
  - In-Person
  - Remote
  - Hybrid<br /><br />
@@ -50,12 +50,15 @@ The maximum reported salary across all categories over the 4 years is $450,000.0
 
 Salary **correlates positively** with experience level (0.21, highest reported) and inversely with work location (-0.046, lowest reported). On average, employees with more experience report higher salaries, while the location of work has a minimal effect on reported salary. **Full-time, in-person employees** are the highest paid, closely followed by full-time remote employees. "Machine Learning and AI" claims the title of the highest-paying job category for both in-person and remote data professionals, while "Data Architecture and Modeling" proves most lucrative for hybrid employees. 
 
-Approximately 99% of the data has been obtained in the most recent period, making it the most significant for analysis. The median salary reported across experience levels for full-time employees has remained relatively stable over the last 2 years across work settings and experience levels. The sharpest spikes, both positive and negative, have been observed in Entry-Level positions, indicating that they have the most variability in pay most recently. Senior-level positions showed an overall positive median salary increase while Mid-level positions showed an overall decrease. Executive-level salary stayed neutral most recently. <br /><br />
+Approximately **99%** of the data has been obtained in the most recent period, making it the most significant for analysis. The median salary reported across experience levels for full-time employees has remained relatively stable over the last 2 years across work settings and experience levels. The sharpest spikes, both positive and negative, have been observed in Entry-Level positions, indicating that they have the most variability in pay most recently. Senior-level positions showed an overall positive median salary increase while Mid-level positions showed an overall decrease. Executive-level salary stayed neutral most recently. <br /><br />
 
 ### ***<ins>Data Source</ins>***
 The salary data analyzed in this assessment originated from [Kaggle](https://www.kaggle.com/datasets/hummaamqaasim/jobs-in-data). The complete dataset contains salary trends for data-related careers on a global scale. To narrow our focus to the most pertinent information and address a data skew, it was refined to isolate records exclusively related to North American employers and employees. <br />
 
 # Sample Visuals  
+<p  align="left center">
+  <img  src="https://github.com/Sonya-7/Sonya-7/assets/92489108/e517a5d3-a312-4526-85dc-bb6b5b722681" width=75% height=50%/>
+
 <p  align="left center">
   <img  src="https://github.com/Sonya-7/US_Data-Job_Salaries/assets/92489108/db65ddc5-d975-470e-b901-48b107e333a0" width=75% height=50%/>
 
