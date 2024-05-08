@@ -15,7 +15,7 @@ permalink: https://github.com/Sonya-7/Reading_List
 ## Project Description
 This project showcases a comprehensive collection of books I have read since January 2021. It presents engaging word clouds and an interactive dashboard, offering a captivating visualization of my literary journey.
 
-This project serves as a means to meticulously trace the words that have shaped my mind throughout the year. It is intriguing to note that, on average, Americans read [12](https://bookriot.com/how-many-books-does-the-average-person-read/) books annually, with [65%](https://www.statista.com/statistics/222754/book-format-used-by-readers-in-the-us/) of them being print books. This statistic surpassed my initial expectations and inspired me to delve into a broader range of literature, setting the goal of reading at least 1 book per month.
+This project serves as a means to meticulously trace the words that have shaped my mind throughout the year. It is intriguing to note that, according to a Statistica survey, on average, Americans read 12 books annually, with 65% of them being print books. This statistic surpassed my initial expectations and inspired me to delve into a broader range of literature, setting the goal of reading at least 1 book per month.
 
 Furthermore, in recognizing the profound influence of language in our daily lives, I am devoted to purposefully incorporating specific words and ideas into my consciousness on a daily basis. This endeavor is a deliberate effort to enhance my awareness and expand my intellectual horizons.
 
