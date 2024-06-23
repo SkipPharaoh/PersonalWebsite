@@ -4,8 +4,8 @@
 Header = '>>This resume was generated entirely in Python. For full source code, see portfolio link below.'
 Name = 'SONYA LAWRENCE-THOMPSON'.upper()
 Title = 'Financial Analysis & Data Science'
-Contact = 'Jacksonville, FL\n904-615-5819\nlawrences@huntington.edu\nlinkedin.com/in/sonya-lt\ngithub.com/sonya-7'
-Portfolio = 'https://sonya-personal-website.vercel.app/about/'
+Contact = 'New York, NY\n904-615-5819\nlawrences@huntington.edu\nlinkedin.com/in/sonya-lt\ngithub.com/sonya-7'
+Portfolio = 'https://sonya-personal-website.vercel.app'
 
 ProjectsHeader = 'PROJECTS/PUBLICATIONS'
 ProjectOneTitle = 'Personal Reading Trends'
@@ -13,21 +13,21 @@ ProjectOneDesc = '- Captivating visualization of personal literary journey\n- In
 ProjectTwoTitle = 'US Data-Job Salary Trends'
 ProjectTwoDesc = '- Created in a Jupyter Notebook using Python\n- In-depth analysis of North American data related job salaries\n- Personal research and data analysis for salary negotiation'
 ProjectThreeTitle = 'IBM Data Science Capstone'
-ProjectThreeDesc = '- Real-world Data Science problem simulation\n- Successfully predicted likelihood of Falcon 9 first stage landing\n- Created machine learning model for accurate aerospace predictions'
+ProjectThreeDesc = '- Real-world Data Science problem simulation\n- Created machine learning model for accurate aerospace predictions\n- Successfully predicted likelihood of SpaceX\'s Falcon 9 first stage landing'
 
 WorkHeader = 'EXPERIENCE'
 WorkOneTitle = 'Financial Analyst\n Jacksonville Orthopaedic Institute'
 WorkOneTime = 'Sep 2022 - Oct 2023'
-WorkOneDesc = '- Created new data management tools and dashboards for 7 facilities\n- Implemented budget processes and conducted monthly variance analysis\n- Automated company-wide processes with SQL, Excel, PowerBi, and Python'
+WorkOneDesc = '- Implemented budget processes and conducted monthly variance analysis\n- Created new data management tools and dashboards for 7 medical facilities\n- Automated company-wide processes with SQL, Excel, PowerBi, and Python'
 WorkTwoTitle = 'Data Quality Analyst\n FCRD Services'
 WorkTwoTime = 'Nov 2020 - Sep 2022'
 WorkTwoDesc = '- Built and maintained financial models for ROI and cash flow projections\n- Designed key performance indicators to guide company wide data analysis\n- Developed dashboards to measure and monitor product and service effectiveness'
 WorkThreeTitle = 'Accountant Assistant\n Indiana Stamp Company'
 WorkThreeTime = 'Dec 2019 - Nov 2020'
-WorkThreeDesc = '- Oversaw daily and monthly bank reconciliation statements\n- Streamlined accounts payable procedures, improving efficiency by over 90%\n- Safeguarded customer data using proprietary software and cloud-based systems'
+WorkThreeDesc = '- Improved accounts payable efficiency by over 90%\n- Oversaw daily and monthly bank reconciliation statements\n- Managed customer data using proprietary software and cloud-based systems'
 WorkFourTitle = "Staff Accountant/Office Manager\n BT'S Plumbing and Heating"
 WorkFourTime = 'Jul 2016 - Oct 2019'
-WorkFourDesc = '- Lead company-wide data transformation from hardware to software\n- Analyzed complex business problems, providing practical solutions\n- Managed financial data using QuickBooks, Excel, and other business software'
+WorkFourDesc = '- Directed company-wide data transformation from hardware to software\n- Analyzed complex business problems, providing practical solutions\n- Managed financial data using QuickBooks, Excel, and other business software'
 
 SkillsHeader = 'SKILLS'
 SkillsDesc = '- Excel\n- SQL\n- Python\n- Pandas\n- NumPy\n- Data Visualization\n- Data Cleaning\n- Probability/Statistics\n- Data Manipulation\n- Data Storytelling\n- Power Bi'
@@ -39,12 +39,12 @@ EduOneDesc = 'Major 1: Accounting\nMajor 2: Psychology\nMinor: Management'
 CertifOneTitle = 'EdX\nProfessional Certificate'
 CertifOneTime = '2022'
 CertifOneDesc = 'Major: Data Science'
-CertifOneDesc2 = 'Learned:\n\t\t\t - Python, R, SQL,\n\t\t\t - Web-Scraping\n\t\t\t - Data Cleaning \n\t\t\t - Data Manipulation\n\t\t\t - Machine Learning \n\t\t\t - Data Analysis\n\t\t\t - Data Visualization'
+CertifOneDesc2 = 'Learned:\n\t\t\t - Python, R, SQL,\n\t\t\t - Web-Scraping\n\t\t\t - Data Cleaning \n\t\t\t - Data Manipulation\n\t\t\t - Machine Learning \n\t\t\t - Data Analysis\n\t\t\t - Data Visualization\n\t\t\t - API integration'
 
-FFHeader = 'Fun Facts'
-FFOneTitle = 'Fluent in conversational Spanish'
-FFTwoTitle = 'ESL Certified Instructor'
-FFThreeTitle = 'Karate - Orange Belt'
+# FFHeader = 'Fun Facts'
+# FFOneTitle = 'Fluent in conversational Spanish'
+# FFTwoTitle = 'ESL Certified Instructor'
+# FFThreeTitle = 'Karate - Orange Belt'
 
 # Import styling package
 import matplotlib.pyplot as plt
@@ -81,7 +81,7 @@ plt.annotate(EduOneDesc, (.7,.44), weight='regular', fontsize=9, color='#ffffff'
 plt.annotate(CertifOneTitle, (.7,.38), weight='bold', fontsize=10, color='#ffffff')
 plt.annotate(CertifOneTime, (.7,.363), weight='regular', fontsize=9, alpha=.7, color='#ffffff')
 plt.annotate(CertifOneDesc, (.7,.343), weight='regular', fontsize=10, color='#ffffff')
-plt.annotate(CertifOneDesc2, (.7,.2), weight='regular', fontsize=10, color='#ffffff')
+plt.annotate(CertifOneDesc2, (.7,.18), weight='regular', fontsize=10, color='#ffffff')
 # plt.annotate(FFHeader, (.7,.13), weight='bold', fontsize=11, color='#ffffff')
 # plt.annotate(FFOneTitle, (.7, .105), weight='regular', fontsize=10, color='#ffffff')
 # plt.annotate(FFTwoTitle, (.7, .09), weight='regular', fontsize=10, color='#ffffff')
