@@ -24,7 +24,7 @@ This project aims to analyze historical world population data and forecast futur
 - **Validation**: Assessing model accuracy through cross-validation and error analysis.
 - **Visualization**: Creating interactive dashboards and visual representations of population trends and forecasts.
 
-### Advantages
+### Project Advantages
 - **Informed Decision-Making**: Helps policymakers, researchers, and businesses understand future demographic shifts to make strategic decisions.
 - **Resource Allocation**: Assists governments and organizations in planning for future infrastructure, healthcare, and educational needs.
 - **Economic Planning**: Provides economic planning and development insights by forecasting potential changes in labor force and consumer markets.
@@ -36,7 +36,7 @@ This project not only showcases technical skills in data analysis and forecastin
 
 
 
-# Sample Visuals  
+<!-- # Sample Visuals   -->
 <p  align="left center">
   <img  src="" width=75% height=50%/>
 
