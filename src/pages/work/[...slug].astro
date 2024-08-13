@@ -54,11 +54,18 @@ const { Content } = await entry.render();
       </header>
       <main class="wrapper">
         <div class="stack gap-10 content">
-          {
-            entry.data.img && (
-              <img src={entry.data.img} alt={entry.data.img_alt || ""} />
-            )
-          }
+          <div class="image-container">
+            {
+              entry.data.img && (
+                <img
+                  class="image"
+                  src={entry.data.img}
+                  alt={entry.data.img_alt || ""}
+                />
+              )
+            }
+          </div>
+          <!-- /** world dimensions are 636.3 * 636.3 others are 636.3 * 423.17 */ -->
           <div class="content">
             <Content />
           </div>
@@ -75,7 +82,22 @@ const { Content } = await entry.render();
     border-bottom: 1px solid var(--gray-800);
   }
 
-  .icon {
+  .image-container {
+    width: 636.3px; /* Set the max-width */
+    height: 423.17px; /* Set the max-height */
+    overflow: hidden; /* Hide the overflow */
+    position: relative; /* Required for positioning the image */
+  }
+
+  .image {
+    width: 95%;
+    height: 95%;
+    /* object-fit: cover; This ensures the image covers the container */
+    position: absolute; /* Ensures proper positioning */
+    top: 0;
+    left: 0;
+  }
+  */ .icon {
     display: flex;
     justify-content: flex-end;
     align-items: center;
