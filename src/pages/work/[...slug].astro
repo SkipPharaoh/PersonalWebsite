@@ -92,19 +92,23 @@ const { Content } = await entry.render();
   .image {
     width: 95%;
     height: 95%;
-    /* object-fit: cover; This ensures the image covers the container */
     position: absolute; /* Ensures proper positioning */
     top: 0;
     left: 0;
   }
-  */ .icon {
+  .icon {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     text-decoration: none;
     padding-right: 1rem;
     font-size: x-large;
+    color: var(--accent-dark);
   }
+  @media (prefers-color-scheme: dark) {
+    .icon {
+      color: white;
+    }
 
   .icon:hover,
   .icon:focus {
