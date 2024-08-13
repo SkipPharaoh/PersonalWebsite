@@ -13,7 +13,7 @@ permalink: https://www.kaggle.com/code/sonyalawrence/data-salaries-in-north-amer
 ---
 
 ## Project Description
-This assessment is an in-depth analysis of the salary details for North American employees whose employers are also located in North America. <br />
+This is an in-depth analysis of the salary details for North American employees whose employers are also located in North America. <br />
 
 ### ***<ins>Demographics</ins>***
 The cleaned dataset contains 4 years of salary details for Data-related careers from 2020 to 2023 and comprises 8,080 records.
