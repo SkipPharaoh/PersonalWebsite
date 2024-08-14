@@ -54,7 +54,6 @@ const { Content } = await entry.render();
       </header>
       <main class="wrapper">
         <div class="stack gap-10 content">
-          <div class="image-container">
             {
               entry.data.img && (
                 <img
@@ -64,7 +63,6 @@ const { Content } = await entry.render();
                 />
               )
             }
-          </div>
           <!-- /** world dimensions are 636.3 * 636.3 others are 636.3 * 423.17 */ -->
           <div class="content">
             <Content />
@@ -82,20 +80,6 @@ const { Content } = await entry.render();
     border-bottom: 1px solid var(--gray-800);
   }
 
-  .image-container {
-    width: 636.3px; /* Set the max-width */
-    height: 423.17px; /* Set the max-height */
-    overflow: hidden; /* Hide the overflow */
-    position: relative; /* Required for positioning the image */
-  }
-
-  .image {
-    width: 95%;
-    height: 95%;
-    position: absolute; /* Ensures proper positioning */
-    top: 0;
-    left: 0;
-  }
   .icon {
     display: flex;
     justify-content: flex-end;
