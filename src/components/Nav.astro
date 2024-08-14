@@ -277,7 +277,7 @@ const iconLinks: {
 
   .socials {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 0.625rem;
     font-size: var(--icon-size);
   }
@@ -383,6 +383,7 @@ const iconLinks: {
       gap: 0;
     }
   }
+
   @media (forced-colors: active) {
     .link.active {
       color: SelectedItem;
