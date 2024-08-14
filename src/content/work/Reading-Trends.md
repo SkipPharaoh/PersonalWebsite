@@ -22,7 +22,7 @@ Furthermore, in recognizing the profound influence of language in our daily live
 By combining my passion for data science with my love for learning, this project displays my technical expertise and commitment to personal growth.
 
 ### Preview of ELT Insights
-<p style="display:flex; justify-content: center; gap: 10px">
+<p id="reading-trends" style="justify-content: center; gap: 10px;">
   <img src="https://github.com/Sonya-7/Reading_List/assets/92489108/be37116e-6731-415b-bbdf-587ae3491e5f" width="358" height="255"/>
   <img src="https://github.com/Sonya-7/Reading_List/assets/92489108/b69c3377-a4b5-4921-8584-c8613b6fa833" width="358" height="255"/>
 </p>
@@ -37,3 +37,20 @@ By combining my passion for data science with my love for learning, this project
   <img src="https://github.com/Sonya-7/Reading_List/assets/92489108/ea74cd45-7fa1-4bdf-b02a-a088532a2e79" width="353" height="50%"/>
 </p>
 
+<script>
+  function applyResponsiveStyle() {
+    const p = document.getElementById('reading-trends');
+    if (window.innerWidth <= 730) {
+      p.style.display = 'block';
+      p.style.textAlign = "center";
+    } else {
+      p.style.display = 'flex';
+    }
+  }
+
+  // Apply the style on initial load
+  applyResponsiveStyle();
+
+  // Apply the style on window resize
+  window.addEventListener('resize', applyResponsiveStyle);
+</script>
