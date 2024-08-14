@@ -56,9 +56,14 @@ const { Content } = await entry.render();
         <div class="stack gap-10 content">
           {
             entry.data.img && (
-              <img src={entry.data.img} alt={entry.data.img_alt || ""} />
+              <img
+                class="image"
+                src={entry.data.img}
+                alt={entry.data.img_alt || ""}
+              />
             )
           }
+          <!-- /** world dimensions are 636.3 * 636.3 others are 636.3 * 423.17 */ -->
           <div class="content">
             <Content />
           </div>
@@ -82,6 +87,12 @@ const { Content } = await entry.render();
     text-decoration: none;
     padding-right: 1rem;
     font-size: x-large;
+    color: var(--accent-dark);
+  }
+  @media (prefers-color-scheme: dark) {
+    .icon {
+      color: white;
+    }
   }
 
   .icon:hover,

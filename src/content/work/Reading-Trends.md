@@ -22,17 +22,18 @@ Furthermore, in recognizing the profound influence of language in our daily live
 By combining my passion for data science with my love for learning, this project displays my technical expertise and commitment to personal growth.
 
 ### Preview of ELT Insights
-<p  align="center">
-  <img  src="https://github.com/Sonya-7/Reading_List/assets/92489108/be37116e-6731-415b-bbdf-587ae3491e5f" width="358" height="255"/>
-  &nbsp;
-  <img  src="https://github.com/Sonya-7/Reading_List/assets/92489108/b69c3377-a4b5-4921-8584-c8613b6fa833" width="358" height="255"/>
+<p style="display:flex; justify-content: center; gap: 10px">
+  <img src="https://github.com/Sonya-7/Reading_List/assets/92489108/be37116e-6731-415b-bbdf-587ae3491e5f" width="358" height="255"/>
+  <img src="https://github.com/Sonya-7/Reading_List/assets/92489108/b69c3377-a4b5-4921-8584-c8613b6fa833" width="358" height="255"/>
+</p>
 
 ### Preview of Word Clouds Containing Dominant Words in Book Titles
-<p  align="center">
-  <img  src="https://github.com/Sonya-7/Reading_List/assets/92489108/e0f20fa1-a1f6-4206-80de-01f4a3615bfd" width="358" height=50%/>
+<p align="center">
+  <img src="https://github.com/Sonya-7/Reading_List/assets/92489108/e0f20fa1-a1f6-4206-80de-01f4a3615bfd" width="358" height="50%"/>
+</p>
 
 ### Preview of PowerBi Dashboard
-<p  align="center">
-  <img  src="https://github.com/Sonya-7/Reading_List/assets/92489108/ea74cd45-7fa1-4bdf-b02a-a088532a2e79" width="353" height=50%/>
-  
+<p align="center">
+  <img src="https://github.com/Sonya-7/Reading_List/assets/92489108/ea74cd45-7fa1-4bdf-b02a-a088532a2e79" width="353" height="50%"/>
+</p>
 
