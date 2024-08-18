@@ -29,7 +29,8 @@ By combining my passion for data science with my love for learning, this project
 
 ### Preview of Word Clouds Containing Dominant Words in Book Titles
 <p align="center">
-  <img src="https://github.com/Sonya-7/Reading_List/assets/92489108/e0f20fa1-a1f6-4206-80de-01f4a3615bfd" width="358" height="50%"/>
+  <img src="https://github.com/user-attachments/assets/87230daf-9b75-4e25-bd58-4fb3009ea91e" width="358" height="50%"/>
+  <!-- <img src="https://github.com/Sonya-7/Reading_List/assets/92489108/e0f20fa1-a1f6-4206-80de-01f4a3615bfd" width="358" height="50%"/> -->
 </p>
 
 ### Preview of PowerBi Dashboard
