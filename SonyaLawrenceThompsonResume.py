@@ -5,8 +5,8 @@ Header = '   This resume was generated entirely in Python using matplotlib.\n   
 Name = 'SONYA LAWRENCE-THOMPSON'.upper()
 Title = 'Financial Data Analysis & Data Science'
 contactHeader = 'CONTACT'
-Contact = 'Jacksonville, FL\n904-615-5819\nlawrences@huntington.edu\nlinkedin.com/in/sonya-lt\nhttps://sonya-personal-website.vercel.app'
-Portfolio = 'https://sonya-personal-website.vercel.app'
+Contact = 'Jacksonville, FL\n904-615-5819\nlawrences@huntington.edu\nlinkedin.com/in/sonya-lt\nhttps://sonyalt.vercel.app'
+Portfolio = 'https://sonyalt.vercel.app'
 QRHeader = 'PORTFOLIO'
 
 ProjectsHeader = 'PROJECTS/PUBLICATIONS'
