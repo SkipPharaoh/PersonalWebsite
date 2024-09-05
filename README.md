@@ -1,6 +1,6 @@
 # Sonya's Sandbox
 
-Welcome to my portfolio website repository! Click [here](https://sonya-personal-website.vercel.app/) to view the website. This repository contains the source code and content for my portfolio website.
+Welcome to my portfolio website repository! Click [here](https://sonyalt.vercel.app/) to view the website. This repository contains the source code and content for my portfolio website.
 
 
 ## Table of Contents
