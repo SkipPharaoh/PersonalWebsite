@@ -10,7 +10,6 @@ tags:
   - PowerBi
   - Personal Growth
 permalink: https://github.com/Sonya-7/Reading_List
-
 ---
 ## Project Description
 
@@ -33,14 +32,14 @@ By combining my passion for data science with my love for learning, this project
 ### Preview of Word Clouds Containing Dominant Words in Book Titles
 
 <p align="center">
-    <img  src="https://github.com/user-attachments/assets/5d71f38c-384d-465d-bc15-df870bbd7bf7" width="258" height=25%/>
+    <img  src="https://github.com/user-attachments/assets/5d71f38c-384d-465d-bc15-df870bbd7bf7" width="458" height=255/>
   <!-- <img src="https://github.com/Sonya-7/Reading_List/assets/92489108/e0f20fa1-a1f6-4206-80de-01f4a3615bfd" width="358" height="50%"/> -->
 </p>
 
 ### Preview of PowerBi Dashboard
 
 <p align="center">
-     <img  src="https://github.com/user-attachments/assets/9c1f45b1-fa43-4bea-8bf7-66ecb91cc94b" width="353" height=50%/>
+     <img  src="https://github.com/user-attachments/assets/9c1f45b1-fa43-4bea-8bf7-66ecb91cc94b" width="588" height=355/>
 </p>
 
 <script>
