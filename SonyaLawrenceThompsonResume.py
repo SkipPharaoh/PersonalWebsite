@@ -18,18 +18,21 @@ ProjectThreeTitle = 'IBM Data Science Capstone'
 ProjectThreeDesc = '- Real-world Data Science problem simulation\n- Created machine learning models (MLM) for accurate aerospace predictions\n- Successfully predicted the likelihood of SpaceX\'s Falcon 9 first-stage landing'
 
 WorkHeader = 'RELEVANT EXPERIENCE'
-WorkOneTitle = 'Financial Analyst\n Jacksonville Orthopaedic Institute'
-WorkOneTime = ' Sep 2022 - Oct 2023'
-WorkOneDesc = '- Collaborated with cross-functional teams to create new data management tools\n  and dashboards for 7 medical facilities\n- Implemented various stored procedures for data cleaning and extraction using\n   SQL Server Management Studio and Visual Studio Code\n- Automated various financial processes using SQL, Excel, PowerBi, and Python'
-WorkTwoTitle = 'Data Quality Analyst\n FCRD Services'
-WorkTwoTime = ' Nov 2020 - Sep 2022'
-WorkTwoDesc = '- Built and maintained financial models for ROI and cash flow projections\n- Designed key performance indicators to guide company-wide data analysis\n- Developed dashboards to measure and monitor product and service effectiveness'
-WorkThreeTitle = 'Accountant Assistant\n Indiana Stamp Company'
-WorkThreeTime = ' Dec 2019 - Nov 2020'
-WorkThreeDesc = '- Improved accounts payable efficiency by over 90%\n- Oversaw daily and monthly bank reconciliation statements\n- Managed customer data using proprietary software and cloud-based systems'
-WorkFourTitle = "Staff Accountant/Office Manager\n BT'S Plumbing and Heating"
-WorkFourTime = ' Jul 2016 - Oct 2019'
-WorkFourDesc = '- Initiated company-wide data migration to cloud database\n- Analyzed complex business problems, providing practical solutions\n- Managed financial data using QuickBooks, Excel, and other business software'
+WorkOneTitle = 'Investment Analyst\n Self-Employed'
+WorkOneTime = ' Oct 2023 - Present'
+WorkOneDesc = '- Analyzed investment opportunities and created financial models to\n  support decision-making\n- Developed and maintained dashboards to track portfolio performance\n- Provided investment recommendations based on market analysis'
+WorkTwoTitle = 'Financial Analyst\n Jacksonville Orthopaedic Institute'
+WorkTwoTime = ' Sep 2022 - Oct 2023'
+WorkTwoDesc = '- Collaborated with cross-functional teams to create new data management tools\n  and dashboards for 7 medical facilities\n- Implemented various stored procedures for data cleaning and extraction using\n   SQL Server Management Studio and Visual Studio Code\n- Automated various financial processes using SQL, Excel, PowerBi, and Python'
+WorkThreeTitle = 'Data Quality Analyst\n FCRD Services'
+WorkThreeTime = ' Nov 2020 - Sep 2022'
+WorkThreeDesc = '- Built and maintained financial models for ROI and cash flow projections\n- Designed key performance indicators to guide company-wide data analysis\n- Developed dashboards to measure and monitor product and service effectiveness'
+WorkFourTitle = 'Accountant Assistant\n Indiana Stamp Company'
+WorkFourTime = ' Dec 2019 - Nov 2020'
+WorkFourDesc = '- Improved accounts payable efficiency by over 90%\n- Oversaw daily and monthly bank reconciliation statements\n- Managed customer data using proprietary software and cloud-based systems'
+# WorkFourTitle = "Staff Accountant/Office Manager\n BT'S Plumbing and Heating"
+# WorkFourTime = ' Jul 2016 - Oct 2019'
+# WorkFourDesc = '- Initiated company-wide data migration to cloud database\n- Analyzed complex business problems, providing practical solutions\n- Managed financial data using QuickBooks, Excel, and other business software'
 
 SkillsHeader = 'SKILLS'
 SkillsDesc = '- Excel\n- SQL\n- Python\n- Data Visualization\n- Data Cleaning\n- Probability/Statistics\n- Data Modeling\n- Data Migration\n- Data Manipulation\n- Data Transformation\n- Data Storytelling\n- Power Bi'
@@ -42,6 +45,10 @@ CertifOneTitle = 'EdX\nProfessional Certificate'
 CertifOneTime = '2022'
 CertifOneDesc = 'Major: Data Science'
 CertifOneDesc2 = 'Learned:\n\t\t\t - Python, R, SQL,\n\t\t\t - Web-Scraping\n\t\t\t - Data Cleaning \n\t\t\t - Data Manipulation\n\t\t\t - Machine Learning \n\t\t\t - Data Analysis\n\t\t\t - Data Visualization\n\t\t\t - API integration'
+EduCurrentTitle = 'Open Source Data Science\nMasters Degree\n *In Progress*'
+EduCurrentTime = '2023 - Present'
+EduCurrentDesc = 'Major: Data Science'
+
 
 # FFHeader = 'Fun Facts'
 # FFOneTitle = 'Fluent in conversational Spanish'
@@ -86,6 +93,10 @@ plt.annotate(CertifOneTitle, (.7,.39), weight='bold', fontsize=10, color='#fffff
 plt.annotate(CertifOneTime, (.7,.373), weight='regular', fontsize=9, alpha=.7, color='#ffffff')
 plt.annotate(CertifOneDesc, (.7,.353), weight='regular', fontsize=10, color='#ffffff')
 plt.annotate(CertifOneDesc2, (.7,.19), weight='regular', fontsize=10, color='#ffffff')
+plt.annotate(EduCurrentTitle, (.7,.13), weight='bold', fontsize=10, color='#ffffff')
+plt.annotate(EduCurrentTime, (.7,.105), weight='regular', fontsize=9, alpha=.7, color='#ffffff')
+plt.annotate(EduCurrentDesc, (.7,.09), weight='regular', fontsize=9, color='#ffffff')
+
 # plt.annotate(FFHeader, (.7,.13), weight='bold', fontsize=11, color='#ffffff')
 # plt.annotate(FFOneTitle, (.7, .105), weight='regular', fontsize=10, color='#ffffff')
 # plt.annotate(FFTwoTitle, (.7, .09), weight='regular', fontsize=10, color='#ffffff')
@@ -104,16 +115,16 @@ plt.annotate(ProjectThreeDesc, (.04,.606), weight='regular', fontsize=9)
 plt.annotate(WorkHeader, (.02,.556), weight='bold', fontsize=10, color='#6b4d85')
 plt.annotate(WorkOneTitle, (.02,.508), weight='bold', fontsize=10)
 plt.annotate(WorkOneTime, (.02,.488), weight='regular', fontsize=9, alpha=.6) 
-plt.annotate(WorkOneDesc, (.04,.408), weight='regular', fontsize=9)
-plt.annotate(WorkTwoTitle, (.02,.362), weight='bold', fontsize=10) 
-plt.annotate(WorkTwoTime, (.02,.342), weight='regular', fontsize=9, alpha=.6) 
-plt.annotate(WorkTwoDesc, (.04,.292), weight='regular', fontsize=9)
-plt.annotate(WorkThreeTitle, (.02,.246), weight='bold', fontsize=10)
-plt.annotate(WorkThreeTime, (.02,.226), weight='regular', fontsize=9, alpha=.6) 
-plt.annotate(WorkThreeDesc, (.04,.176), weight='regular', fontsize=9)
-plt.annotate(WorkFourTitle, (.02,.13), weight='bold', fontsize=10)
-plt.annotate(WorkFourTime, (.02,.11), weight='regular', fontsize=9, alpha=.6) 
-plt.annotate(WorkFourDesc, (.04,.06), weight='regular', fontsize=9)
+plt.annotate(WorkOneDesc, (.04,.424), weight='regular', fontsize=9)
+plt.annotate(WorkTwoTitle, (.02,.378), weight='bold', fontsize=10) 
+plt.annotate(WorkTwoTime, (.02,.358), weight='regular', fontsize=9, alpha=.6) 
+plt.annotate(WorkTwoDesc, (.04,.278), weight='regular', fontsize=9)
+plt.annotate(WorkThreeTitle, (.02,.232), weight='bold', fontsize=10)
+plt.annotate(WorkThreeTime, (.02,.212), weight='regular', fontsize=9, alpha=.6) 
+plt.annotate(WorkThreeDesc, (.04,.162), weight='regular', fontsize=9)
+plt.annotate(WorkFourTitle, (.02,.116), weight='bold', fontsize=10)
+plt.annotate(WorkFourTime, (.02,.096), weight='regular', fontsize=9, alpha=.6) 
+plt.annotate(WorkFourDesc, (.04,.046), weight='regular', fontsize=9)
 plt.annotate(Header, (.02,.005), weight='regular', fontsize=7, alpha=.6)
 
 plt.savefig('SonyaLawrenceThompsonResume.pdf', dpi=300, bbox_inches='tight')
