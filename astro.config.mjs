@@ -7,6 +7,8 @@ export default defineConfig({
   output: "server",
   adapter: vercel({
     edgeMiddleware: true,
+    functionPerRoute: false,
+    runtime: "nodejs20.x", // Add this line
   }),
   integrations: [db()],
 });
