@@ -1,6 +1,6 @@
 ---
 title: Personal Reading Trends
-publishDate: 2023-01-01 00:00:00
+publishDate: 2025-01-01 00:00:00
 img: /assets/stock-3.jpg
 img_alt: Open book with pages flared
 description: |
@@ -11,6 +11,7 @@ tags:
   - Personal Growth
 permalink: https://github.com/Sonya-7/Reading_List
 ---
+
 ## Project Description
 
 This project showcases a comprehensive collection of books I have read since January 2021. It presents engaging word clouds and an interactive dashboard, offering a captivating visualization of my literary journey.
